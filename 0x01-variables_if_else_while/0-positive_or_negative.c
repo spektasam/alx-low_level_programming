@@ -6,6 +6,8 @@
 /**
  * main -main function
  *
+ * Description: the main function that prints a message 
+ *
  * Return : always 0
  */
 
