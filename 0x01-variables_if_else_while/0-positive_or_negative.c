@@ -4,11 +4,11 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main -main function
+ * main - main function
  *
  * Description: the main function that prints a message 
  *
- * Return : always 0
+ * Return: always 0
  */
 
 int main(void)
