@@ -7,18 +7,14 @@
  * Return: always 0
  */
 
-int main() {
-    char letter = 'a';
+int main(void)
+{
+	char i;
 
-    while (letter <= 'z') {
-        if (letter != 'e' && letter != 'q') {
-            putchar(letter);
-        }
-        letter++;
-    }
-
-    putchar('\n');
-
-    return 0;
+	for (i = 'a' ; i <= 'z' ; i++)
+		if (i != 'q' && i != 'e')
+			putchar(i);
+	putchar('\n');
+	return (0);
 }
 
