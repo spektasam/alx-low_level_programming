@@ -8,24 +8,16 @@
  * Return: always 0
  */
 
-int main() {
-    char lowercase = 'a';
-    char uppercase = 'A';
+int main(void)
+{
+	char i;
 
-    while (lowercase <= 'z') {
-        putchar(lowercase);
-        lowercase++;
-    }
-
-    putchar('\n');
-
-    while (uppercase <= 'Z') {
-        putchar(uppercase);
-        uppercase++;
-    }
-
-    putchar('\n');
-
-    return 0;
+	for (i = 'a' ; i <= 'z' ; i++)
+		putchar(i);
+	for (i = 'A' ; i <= 'Z' ; i++)
+		putchar(i);
+	putchar('\n');
+	return (0);
+	
 }
 
