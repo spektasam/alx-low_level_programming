@@ -7,7 +7,7 @@
  *
  * @accept: prefix to be measured
  *
- * Return: number of bytes in s which consist only 
+ * Return: number of bytes in s which consist only
  * of bytes from accept
  */
 
